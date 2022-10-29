@@ -11,7 +11,7 @@ async function main() {
   console.log(`Traceability smart contract deployed at: ${traceability.address}`);
 
   // Add gas limit 3145728
-  const storeHashTx = await traceability.storeHash("demo-id", "demo-hash");
+  const storeHashTx = await traceability.storeHash("demo-id", "demo-hash", { gasLimit: 500000, gasPrice: 0 });
 
   // wait until the transaction is mined
   await storeHashTx.wait();

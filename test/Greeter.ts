@@ -5,6 +5,6 @@ import { ethers, lacchain } from "hardhat";
     console.log(accounts)
     const Greeter = await ethers.getContractFactory("Greeter", accounts[2]);
     const greeter = await lacchain.deployContract(Greeter, "Hello, world!");
-    console.log(`deployed at: ${greeter.address}`)//quien es el owner del contrato?
+    console.log(`deployed at: ${greeter.address}`)
     
 })();

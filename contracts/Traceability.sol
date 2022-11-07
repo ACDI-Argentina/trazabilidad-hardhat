@@ -5,7 +5,7 @@
 
   contract Traceability is BaseRelayRecipient {
 
-    address payable owner;
+    address payable public owner;
     mapping(string => string) public hashes;
     
       constructor() { 

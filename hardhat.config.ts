@@ -18,8 +18,8 @@ const config: HardhatUserConfig = {
       gasPrice: 0,
       expiration: 1736394529,
       privateKeys: [
-        '0x8c310b790fc64673c75cea2ce985c0818c91d2e32f5e5c8c2c43aa7d4e74347b', //0x041De422e5b2ccad8F520b432985cF8D8Da32C44?
-     
+        '0x8c310b790fc64673c75cea2ce985c0818c91d2e32f5e5c8c2c43aa7d4e74347b', //0x041De422e5b2ccad8F520b432985cF8D8Da32C44 - owner
+        '0xfe2348724126d4ec3983063d4a9192b9716b5594c7473af652d1fbe894c2207d'  //0x1550d968A89817b6B598C79141F8BD109BA5ceD4
       ],
 
     }
